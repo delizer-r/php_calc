@@ -27,7 +27,8 @@ while (true) {
             
         case '2':
             $result = $num1 + $num2;
-            echo "Результат: $num1 + $num2 = $result\n";
+            echo "СЛОЖЕНИЕ:\n";
+            echo "$num1 + $num2 = $result\n";
             break;
             
         case '3':
