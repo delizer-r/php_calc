@@ -47,9 +47,9 @@ while (true) {
             
         case '5':
             $result = pow($num1, $num2);
-            echo "Результат: $num1 ^ $num2 = $result\n";
+            echo "ВОЗВЕДЕНИЕ В СТЕПЕНЬ:\n";
+            echo "$num1 ^ $num2 = $result\n";
             break;
-            
         case '0':
             echo "Пока!\n";
             exit;
