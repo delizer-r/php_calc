@@ -32,7 +32,8 @@ while (true) {
             
         case '3':
             $result = $num1 - $num2;
-            echo "Результат: $num1 - $num2 = $result\n";
+            echo "ВЫЧИТАНИЕ:\n";
+            echo "$num1 - $num2 = $result\n";
             break;
             
         case '4':
