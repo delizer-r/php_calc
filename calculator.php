@@ -38,12 +38,9 @@ while (true) {
             break;
             
         case '4':
-            if ($num2 == 0) {
-                echo "Ошибка: на ноль делить нельзя!\n";
-            } else {
-                $result = $num1 / $num2;
-                echo "Результат: $num1 / $num2 = $result\n";
-            }
+            $result = $num1 / $num2;
+            echo "ДЕЛЕНИЕ:\n";
+            echo "$num1 / $num2 = $result\n";
             break;
             
         case '5':
